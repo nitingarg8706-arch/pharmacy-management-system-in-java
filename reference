@@ -1,0 +1,19 @@
+PharmacySystem/
+├── lib/
+│   └── itextpdf-5.5.13.3.jar
+├── images/
+│   └── background.jpg
+├── LoginWindow.java
+├── MainPharmacyApp.java
+├── MainMenuWindow.java
+├── InventoryWindow.java
+├── AddItemWindow.java
+├── BillingWindow.java
+├── Item.java
+├── PharmacyDatabase.java
+
+
+
+
+javac -cp ".;lib/itextpdf-5.5.13.3.jar" *.java
+java -cp ".;lib/itextpdf-5.5.13.3.jar" MainPharmacyApp
